@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- animated background layer -->
+  <div class="bg" aria-hidden="true">
+    <div class="gradient"></div>
+    <div class="blobs">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+      <div class="blob b4"></div>
+      <div class="blob b5"></div>
+    </div>
+  </div>
+  <div class="container">
+    <h1>💖 Love Calculator 💖</h1>
+    <input type="text" id="name1" placeholder="Your Name" />
+    <input type="text" id="name2" placeholder="Partner's Name" />
+    <button onclick="startCalculation()">Calculate Love</button>
+
+    <div id="loader" class="loader hidden"></div>
+    <div id="certificate" class="certificate hidden"></div>
+  </div>
+  <script src="script.js"></script>
+  <footer class="site-footer">
+    <a class="insta-link" href="https://instagram.com/iamlalu05" target="_blank" rel="noopener noreferrer" aria-label="Instagram @iamlalu05">
+      <!-- simple Instagram glyph -->
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="18" rx="5" stroke="#ff4e50" stroke-width="1.4" fill="none"></rect>
+        <circle cx="12" cy="12" r="3" stroke="#ff4e50" stroke-width="1.2" fill="none"></circle>
+        <circle cx="17.5" cy="6.5" r="0.9" fill="#ff4e50"></circle>
+      </svg>
+      <span>@iamlalu05</span>
+    </a>
+  </footer>
+</body>
+</html>
